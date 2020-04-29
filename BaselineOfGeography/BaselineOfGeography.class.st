@@ -10,7 +10,7 @@ BaselineOfGeography >> baseline: spec [
 
 	spec for: #'common' do: [
 		spec 
-			package: #'Geography';
+			package: #'Geography' ;
 			package: #'Geography-Tests' with: [
 				spec requires: #('Geography' ). ].
 		spec 
