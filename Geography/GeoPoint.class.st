@@ -27,6 +27,11 @@ GeoPoint >> asPoint [
 	^ longitude @ latitude
 ]
 
+{ #category : #converting }
+GeoPoint >> asTuple [
+	^ { longitude . latitude }
+]
+
 { #category : #'as yet unclassified' }
 GeoPoint >> degree: degree minutes: minutes seconds: seconds direction: direction [ 
 	| decimal |
