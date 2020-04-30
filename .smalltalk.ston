@@ -2,6 +2,7 @@ SmalltalkCISpec {
   #loading : [
       SCIMetacelloLoadSpec {
           #baseline : 'Geography',
+          #directory : '.',
           #load : [ 'default' ],
           #platforms : [ #pharo ]
       }
