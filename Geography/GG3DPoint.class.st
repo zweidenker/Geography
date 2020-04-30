@@ -1,6 +1,6 @@
 Class {
-	#name : #Geo3DPoint,
-	#superclass : #GeoPoint,
+	#name : #GG3DPoint,
+	#superclass : #GGPoint,
 	#instVars : [
 		'altitude'
 	],
@@ -8,11 +8,11 @@ Class {
 }
 
 { #category : #accessing }
-Geo3DPoint >> altitude [
+GG3DPoint >> altitude [
 	^ altitude
 ]
 
 { #category : #accessing }
-Geo3DPoint >> altitude: anObject [
+GG3DPoint >> altitude: anObject [
 	altitude := anObject
 ]

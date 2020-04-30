@@ -6,5 +6,5 @@ Class {
 
 { #category : #tests }
 GeographyTests >> testNumberConversion [
-	self assert: 51@@13 equals: (GeoPoint longitude: 51 latitude: 13)
+	self assert: 51@@13 equals: (GGPoint longitude: 51 latitude: 13)
 ]

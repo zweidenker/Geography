@@ -2,5 +2,5 @@ Extension { #name : #Number }
 
 { #category : #'*Geography' }
 Number >> @@ aNumber [
-	^ GeoPoint longitude: self latitude: aNumber
+	^ GGPoint longitude: self latitude: aNumber
 ]
