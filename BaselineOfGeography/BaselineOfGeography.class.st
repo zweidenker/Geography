@@ -28,7 +28,7 @@ BaselineOfGeography >> geometry: spec [
 	spec
 		baseline: 'Geometry' with: [ 
 			spec 
-				repository: 'github://TelescopeSt:v1.1.0/src'].
+				repository: 'github://TelescopeSt/Geometry:v1.1.0/src'].
 			
 	
 ]
