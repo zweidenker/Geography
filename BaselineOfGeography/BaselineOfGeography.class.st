@@ -18,7 +18,7 @@ BaselineOfGeography >> baseline: spec [
 				spec requires: #('Geography-Core' ). ].
 		spec 
 			group: 'Core' with: #('Geography-Core' );
-			group: 'default' with: #('Geography-Core' 'Geography-Tests'). ].
+			group: 'default' with: #('Geography-Core' 'Geography-Geometry' 'Geography-Tests'). ].
 
 ]
 
