@@ -1,10 +1,11 @@
 Class {
-	#name : #BaselineOfGeography,
-	#superclass : #BaselineOf,
-	#category : #BaselineOfGeography
+	#name : 'BaselineOfGeography',
+	#superclass : 'BaselineOf',
+	#category : 'BaselineOfGeography',
+	#package : 'BaselineOfGeography'
 }
 
-{ #category : #baselines }
+{ #category : 'baselines' }
 BaselineOfGeography >> baseline: spec [
 	<baseline>
 
@@ -22,13 +23,13 @@ BaselineOfGeography >> baseline: spec [
 
 ]
 
-{ #category : #baselines }
+{ #category : 'baselines' }
 BaselineOfGeography >> geometry: spec [
 
 	spec
 		baseline: 'Geometry' with: [ 
 			spec 
-				repository: 'github://TelescopeSt/Geometry:v1.1.0/src'].
+				repository: 'github://pharo-contributions//Geometry:v1.2.0/src'].
 			
 	
 ]
