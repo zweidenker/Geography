@@ -29,7 +29,7 @@ BaselineOfGeography >> geometry: spec [
 	spec
 		baseline: 'Geometry' with: [ 
 			spec 
-				repository: 'github://pharo-contributions//Geometry:v1.2.0/src'].
+				repository: 'github://pharo-contributions/Geometry:v1.2.0/src'].
 			
 	
 ]
