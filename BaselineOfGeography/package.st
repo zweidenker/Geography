@@ -1,1 +1,1 @@
-Package { #name : #BaselineOfGeography }
+Package { #name : 'BaselineOfGeography' }
